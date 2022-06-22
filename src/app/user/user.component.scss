@@ -32,3 +32,26 @@
         text-align:start;
     }
 }
+
+.user-mobile-table{
+    width:100%;
+    border-collapse: collapse;
+    margin-bottom:100px;
+    tr{
+        height:40px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        border-bottom:1px solid rgba(255,255,255,0.1);
+        &:hover{
+            background-color: rgba(0,0,0,0.1);
+            cursor:pointer;
+        }
+    }
+} 
+
+
+mat-card{
+    height:268px;
+    overflow-y: auto;
+}
